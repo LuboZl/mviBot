@@ -13,6 +13,6 @@ appPassword: 'ee0PmtyOmVN8vQXZ1NCMf3R'});
 var bot = new builder.UniversalBot(connector); server.post('/api/messages', connector.listen());
 //========================================================= // Bots Dialogs //=========================================================
    bot.dialog('/', function (session) {
-       session.send("Hello World");
+       session.send("KKT");
 });
  
